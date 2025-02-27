@@ -1,18 +1,15 @@
-
-import './App.css'
-import DataRequest from './components/DataRequest'
-
+import "./App.css";
+import DataRequest from "./components/DataRequest";
 
 const App = () => {
-  const apiUrl = 'https://backend-nestjs-o9er.onrender.com';
-
+  const apiUrl = "https://three24-tag06-simple-apps-ushl.onrender.com";
   return (
     <>
       <h2>Functional Arror Component</h2>
-      <DataRequest title="API Endpoint A" apiUrl={apiUrl}/>
+      <DataRequest title="API Endpoint A" apiUrl={apiUrl} />
     </>
-  )
-}
+  );
+};
 
 // interface CardProps {
 //   title: string
@@ -35,6 +32,4 @@ const App = () => {
 //   )
 // }
 
-
-
-export default App
+export default App;
